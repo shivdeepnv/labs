@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:1.19
 ENV AUTHOR=Docker
 
 WORKDIR /usr/share/nginx/html
